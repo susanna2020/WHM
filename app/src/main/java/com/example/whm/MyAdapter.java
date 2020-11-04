@@ -46,7 +46,7 @@ public class MyAdapter  extends RecyclerView.Adapter<MyAdapter.MyViewHolder>{
         return images.length;
     }
 
-    public class MyViewHolder extends RecyclerView.ViewHolder{
+    public static class MyViewHolder extends RecyclerView.ViewHolder{
         TextView textView , textView2;
         ImageView imageView;
 

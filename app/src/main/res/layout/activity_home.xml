@@ -120,9 +120,10 @@
                 <ImageButton
                     android:id="@+id/items"
                     android:layout_width="wrap_content"
-                    android:layout_height="52dp"
+                    android:layout_height="36dp"
                     android:layout_gravity="center_horizontal"
-                    android:background="@drawable/items" />
+                    android:background="@drawable/items"
+                    android:onClick="to_items" />
 
                 <TextView
                     android:id="@+id/items_tv"
@@ -159,6 +160,7 @@
                 android:orientation="vertical">
 
                 <ImageButton
+                    android:onClick="to_balances"
                     android:id="@+id/balances"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -200,6 +202,7 @@
                 android:orientation="vertical">
 
                 <ImageButton
+                    android:onClick="to_store_issues"
                     android:id="@+id/stock_issues"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -241,6 +244,7 @@
                 android:orientation="vertical">
 
                 <ImageButton
+                    android:onClick="to_stock_rec"
                     android:id="@+id/stock_receive"
                     android:layout_width="55dp"
                     android:layout_height="61dp"
@@ -282,6 +286,7 @@
                 android:orientation="vertical">
 
                 <ImageButton
+                    android:onClick="to_stock_tran"
                     android:id="@+id/stock_tansfer"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

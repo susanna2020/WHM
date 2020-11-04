@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WHM">
-        <activity android:name=".StoresActivity"></activity>
+        <activity android:name=".StockTranActivity"></activity>
+        <activity android:name=".StockRecActivity" />
+        <activity android:name=".StockIssueActivity" />
+        <activity android:name=".BalancesActivity" />
+        <activity android:name=".ItemsActivity" />
+        <activity android:name=".StoresActivity" />
         <activity android:name=".ui.StoresActivity" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".LoginActivity" />

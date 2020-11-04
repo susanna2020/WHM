@@ -43,4 +43,31 @@ public class HomeActivity extends AppCompatActivity {
 
         startActivity(myIntent);
     }
-}
+    public void to_items(View view) {
+        Intent myIntent = new Intent(HomeActivity.this, ItemsActivity.class);
+
+        startActivity(myIntent);
+    }
+    public void to_balances(View view) {
+        Intent myIntent = new Intent(HomeActivity.this, BalancesActivity.class);
+
+        startActivity(myIntent);
+    }
+
+    public void to_store_issues(View view) {
+        Intent myIntent = new Intent(HomeActivity.this, StockIssueActivity.class);
+
+        startActivity(myIntent);
+    }
+    public void to_stock_rec(View view) {
+        Intent myIntent = new Intent(HomeActivity.this, StockRecActivity.class);
+
+        startActivity(myIntent);
+    }
+
+    public void to_stock_tran(View view) {
+        Intent myIntent = new Intent(HomeActivity.this, StockTranActivity.class);
+
+        startActivity(myIntent);
+    }
+    }
