@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">WHM</string>
+    <!--Recycler adapter arrays-->
+    <string-array name="stores_names">
+        <item> Store 1</item>
+        <item> Store 2</item>
+        <item> Store 3</item>
+    </string-array>
+
+    <string-array name="description">
+        <item> Main Store</item>
+        <item> Material Store</item>
+        <item> Finsh Goods Store</item>
+    </string-array>
+    <string-array name="items_name">
+        <item> item 1</item>
+        <item> item 2</item>
+        <item> item 3</item>
+    </string-array>
+    <string-array name="item_description">
+        <item> Small Box </item>
+        <item> Medium Box </item>
+        <item> Large Box </item>
+    </string-array>
 </resources>
