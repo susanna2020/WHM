@@ -24,21 +24,37 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="149dp" />
+        android:layout_marginTop="130dp" />
 
-    <EditText
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="64dp"
+        android:layout_height="57dp"
+        app:srcCompat="@drawable/barcodeicon"
+        android:layout_marginBottom="350dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="300dp"/>
+
+    <LinearLayout
+        android:id="@+id/input_group"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="300dp"
-        android:text="Item Name"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="300dp"
+        android:gravity="center"
+        android:orientation="vertical">
 
-        />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Item Name" />
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="350dp"
-        android:text="QTY" />
-
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Qty" />
+    </LinearLayout>
 
 </RelativeLayout>

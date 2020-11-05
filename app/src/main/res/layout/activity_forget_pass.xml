@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForgetPassActivity">
+    <LinearLayout
+        android:id="@+id/input_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="300dp"
+        android:gravity="center"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/forgetTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your username"
+        android:textSize="25dp"
+        android:textColor="#50AF97"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:id="@+id/userNameReset"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/Forget_tv"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edit_text_top"
+        android:hint="User Name" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset Password"
+        android:textSize="20dp"
+        android:layout_below="@id/userNameReset"
+        android:layout_marginTop="50dp"/>
+</LinearLayout>
+
+
+</RelativeLayout>

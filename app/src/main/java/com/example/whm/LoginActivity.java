@@ -13,7 +13,7 @@ import android.widget.TextView;
 public class LoginActivity extends AppCompatActivity {
     EditText editTextEmail, editTextPassword;
     Button buttonLogin;
-    TextView textViewRegister;
+    TextView textViewRegister , forgetPassword;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,9 +24,15 @@ public class LoginActivity extends AppCompatActivity {
         buttonLogin = findViewById(R.id.buttonLogin);
 
         textViewRegister = findViewById(R.id.textViewRegister);
+        forgetPassword = findViewById(R.id.forgetPassword);
     }
 
     public void to_home(View view) {
         startActivity(new Intent(LoginActivity.this, HomeActivity.class));
+    }
+
+    public void to_forget_pass(View view) {
+        startActivity(new Intent(LoginActivity.this,ForgetPassActivity.class));
+
     }
 }

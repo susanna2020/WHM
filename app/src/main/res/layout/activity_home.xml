@@ -153,23 +153,23 @@
 
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="89dp"
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
                 android:gravity="center"
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:onClick="to_balances"
                     android:id="@+id/balances"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:background="@drawable/balance" />
+                    android:background="@drawable/balance"
+                    android:onClick="to_balances" />
 
                 <TextView
                     android:id="@+id/balances_tv"
-                    android:layout_width="wrap_content"
+                    android:layout_width="84dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:fontFamily="@font/mo_re"
@@ -278,7 +278,7 @@
             app:cardElevation="6dp">
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="113dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
@@ -286,17 +286,17 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:onClick="to_stock_tran"
                     android:id="@+id/stock_tansfer"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="33dp"
                     android:layout_gravity="center_horizontal"
-                    android:background="@drawable/store_transfer" />
+                    android:background="@drawable/store_transfer"
+                    android:onClick="to_stock_tran" />
 
                 <TextView
                     android:id="@+id/stock_transfer_tv"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="30dp"
                     android:layout_marginTop="8dp"
                     android:fontFamily="@font/mo_re"
                     android:text="Stock Transfer"
@@ -320,8 +320,8 @@
             app:cardElevation="6dp">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="84dp"
+                android:layout_height="80dp"
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
                 android:gravity="center"
@@ -329,8 +329,8 @@
 
                 <ImageButton
                     android:id="@+id/reports"
-                    android:layout_width="80dp"
-                    android:layout_height="55dp"
+                    android:layout_width="78dp"
+                    android:layout_height="47dp"
                     android:layout_gravity="center_horizontal"
                     android:background="@drawable/report" />
 
